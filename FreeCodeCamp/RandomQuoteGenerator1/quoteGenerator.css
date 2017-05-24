@@ -1,0 +1,48 @@
+
+
+body {
+  text-align: center;
+  background: #003b6f;
+  color: #a6b8c7;
+  font-family: Arvo;
+  margin: 50px;
+}
+
+button {
+  background: #a6b8c7;
+  width: 50%;
+  margin: 1%;
+  border-radius: 20%;
+  padding: 1%;
+  font-size: 150%;
+  font-weight: 700;
+}
+button:hover {
+  color: white;
+  background: #2a77bf;
+}
+.quote {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 5px solid #00060b;
+  padding: 5%;
+}
+
+.randomQuote {
+  margin: 1% 3% 3% 3%;
+}
+.randomDoctor {
+  text-align: right;
+  margin: 1% 10%;
+}
+.randomYear {
+  text-align: right;
+  margin: 0% 10%;
+}
+.twitter {
+  width: 15%;
+}
+footer {
+  text-align: left;
+  padding: 20% 0;
+}

@@ -1,0 +1,71 @@
+var quotes = [{
+  character: "First Doctor",
+  actor: "William Hartnell",
+  movie: "The Reign of Terror (1.8)",
+  quote: "Our destiny is in the stars, so let's go and search for it.",
+  scene: url("http://www.nerdist.com/wp-content/uploads/2010/09/first-doctor.jpg"),
+  year: "1963-1966"
+}, {
+  character: "Second Doctor",
+  actor: "Patrick Troughton",
+  movie: "The Wheel in Space (5.7)",
+  quote: "Logic, my dear Zoe, merely enables one to be wrong with authority.",
+  scene: url( "http://images.amcnetworks.com/bbcamerica.com/wp-content/uploads/2013/02/seconddoctor.jpg"),
+  year: "1966-1969"
+}, {
+  character: "Third Doctor",
+  actor: "Jon Pertwee",
+  movie: "The Time Warrior (11.1)",
+  quote: "A straight line may be the shortest distance between two points, but it is by no means the most interesting.",
+  scene:url( "https://upload.wikimedia.org/wikipedia/en/0/07/Third_Doctor.jpg"),
+  year: "1970-1974"
+}, {
+  character: "Fourth Doctor",
+  actor: "Tom Baker",
+  movie: "Robot (12.1)",
+  quote: "There's no point being grown-up if you can't be childish sometimes.",
+  scene: "http://stuffpoint.com/science-fiction/image/303016-science-fiction-doctor-who-fourth-doctor.jpg",
+  year: "1974-1981"
+}, {
+  character: "Fifth Doctor",
+  actor: "Peter Davison",
+  movie: "Arc of Infinity (20.1)",
+  quote: "You know how it is; you put things off for a day and next thing you know, it's a hundred years later.",
+  scene: url ( "http://www.doctorwhotv.co.uk/wp-content/uploads/fifth-doctor-Davison-cricket.jpg"),
+  year: "1981-1984"
+}, {
+  character: "Sixth Doctor",
+  actor: "Colin Baker",
+  movie: "The Ultimate Foe (23.4)",
+  quote: "In all my travelling throughout the universe, I have battled against evil, against power-mad conspirators. I should have stayed here. The oldest civilisation: decadent, degenerate, and rotten to the core.",
+  scene: url("https://upload.wikimedia.org/wikipedia/en/5/51/Sixth_Doctor_portrait.jpg"),
+  year: "1984-1986"
+}, {
+  character: "Seventh Doctor",
+  actor: "Sylvester McCoy",
+  movie: "The Greatest Show In The Galaxy(25.4)",
+  quote: "Anybody remotely interesting is mad in some way.",
+  scene: url("http://1.bp.blogspot.com/-uDpmdMb_5Ug/TdDUb0MHltI/AAAAAAAAC4U/SMnoM2dAVyE/s1600/sylvester_mccoy.jpg"),
+  year: "1987,1989, 1996"
+}, {
+  character: "Eighth Doctor",
+  actor: "Paul McGann",
+  movie: "The Night of the Doctor",
+  quote: "Four minutes? That's ages. What if I get bored?",
+  scene: url("http://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/article_width/public/mcgann1.jpg?itok=SU4MQ0qS"),
+  year: "1996, 2013"
+}, {
+  character: "War Doctor",
+  actor: "John Hurt",
+  movie: "The Day of the Doctor",
+  quote: "Great men are forged in fire. It is the privilege of lesser men to light the flame.",
+  scene: url("http://doctorwhowatch.com/files/2015/07/JohnHurtWarDoctor1.jpg"),
+  year: "2013"
+}, {
+  character: "Ninth Doctor",
+  actor: "Christopher Ecceleston",
+  movie: "The Parting of the Ways (1.13)",
+  quote: "Before I go, I just want to tell you: you were fantastic. Absolutely fantastic. And do you know what? So was I!",
+  scene: url("https://www.planetclaire.tv/wp-content/uploads/2005/03/doctor-who-nine-series-1_2.jpg"),
+  year: "2005"
+}];
