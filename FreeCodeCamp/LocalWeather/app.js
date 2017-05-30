@@ -7,9 +7,11 @@ if (navigator.geolocation) {
     var lat =  position.coords.latitude;
     var long = position.coords.longitude;
 
+
+
 //http://api.wunderground.com/api/b1243d069cc29296/forecast/geolookup/conditions/q/39.0561647,-94.6059386.json
 
-    var apiWebsite = "http://api.wunderground.com/api/b1243d069cc29296/forecast/geolookup/conditions/q/" + lat + "," + long + ".json";
+    var apiWebsite = "http://api.wunderground.com/api/b1243d069cc29296/forecast/geolookup/conditions/q/" + lat + "," + long+ ".json";
 
     var weather = new XMLHttpRequest();
     weather.open("GET", apiWebsite, false);
@@ -30,21 +32,14 @@ if (navigator.geolocation) {
 
     //document.getElementById("icon").innerHTML = icon;
 
+      document.getElementById("forecast").innerHTML = forecastFar;
+      document.getElementById("temp").innerHTML = tempFar;
 
-    document.getElementById("clickMe").onclick = function () {
-      var click;
-      if (click === true) {
-        document.getElementById("forecastFar").innerHTML = forecastFar;
-        document.getElementById("tempFar").innerHTML = tempFar;
-        click === false;
-      }
-      else {
-        document.getElementById("forecastCel").innerHTML = forecastCel;
-        document.getElementById("tempCel").innerHTML = tempCel;
-        click === true;
-      }
-      return click;
-    };
+
+    document.getElementById("farCel").onclick = function () {
+        document.getElementById("forecast").innerHTML = forecastCel;
+        document.getElementById("temp").innerHTML = tempCel;
+     };
 
 
   });

@@ -12,6 +12,9 @@ img {
   max-width: 90px;
   align-items: center;
 }
+input {
+  background: black; 
+}
 .container {
   background: black;
 }
